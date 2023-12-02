@@ -1,6 +1,6 @@
 # FoodiePal
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/Login.png?raw=true)
-![alt text](https://github.com/SunitcB/FoodiePal/blob/main/Recipe.png?raw=true)
+![alt text](https://github.com/SunitcB/FoodiePal/blob/main/RecipeList.png?raw=true)
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/RecipeForm.png?raw=true)
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/RecipeDetails.png?raw=true)
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/PlannerList.png?raw=true)
