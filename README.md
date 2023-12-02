@@ -7,4 +7,4 @@
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/PlannerForm.png?raw=true)
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/Blog.png?raw=true)
 ![alt text](https://github.com/SunitcB/FoodiePal/blob/main/Contact.png?raw=true)
-![alt text](https://github.com/SunitcB/FoodiePal/blob/mfain/AboutMer.png?raw=true)r
+![alt text](https://github.com/SunitcB/FoodiePal/blob/mfain/AboutMe.png?raw=true)
