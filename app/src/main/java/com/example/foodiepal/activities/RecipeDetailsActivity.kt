@@ -37,9 +37,25 @@ class RecipeDetailsActivity : AppCompatActivity() {
         recipeDescTxt.setText(recipeDetailsObj?.recipeDescription.toString())
         ingredientsTxt.setText(recipeDetailsObj?.recipeIngredients.toString())
         instructionTxt.setText(recipeDetailsObj?.recipeInstructions.toString())
+
+//        productImageView.setImageResource(productObj?.productImage!!)
+//        productLogoView.setImageResource(productObj?.productLogo!!)
+//
+//        val decimalFormat = DecimalFormat("#.##")
+//        val priceStr = "$" + decimalFormat.format(productObj?.productPrice)
+//
+//        productNameTxt.setText(productObj?.productName.toString())
+//        productDescTxt.setText(productObj?.productDescription.toString())
+//        productPriceTxt.setText(priceStr)
+//
+//        homeBtn.setOnClickListener {
+//            var intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
     override fun onSupportNavigateUp(): Boolean {
+        // Handle the back button click
         onBackPressed()
         return true
     }
