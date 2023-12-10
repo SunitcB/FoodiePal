@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             tab.text = tabList[position]
         }.attach()
 
-        bottomNavView.setOnNavigationItemSelectedListener { item ->
+        bottomNavView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_recipe -> viewPager.currentItem = 0
                 R.id.navigation_meal_planner -> viewPager.currentItem = 1

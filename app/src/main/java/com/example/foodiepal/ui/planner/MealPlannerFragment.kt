@@ -13,6 +13,8 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView.Orientation
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.foodiepal.R
 import com.example.foodiepal.adapter.MealPlanListAdapter
 import com.example.foodiepal.adapter.RecipeListAdapter
@@ -40,8 +42,8 @@ class MealPlannerFragment : Fragment() {
             LocalDate.now()
         ),
         MealPlannerDataModel(
-            "Berry Bliss Pancakes",
-            "Grilled Chicken Caesar Wrap",
+            "Berry Bliss Pancakes and Oat meal cookies with coffee",
+            "Grilled Chicken Caesar Wrap, Caesar Salad with olive dressing",
             "Spaghetti Bolognese with Garlic Bread",
             LocalDate.now()
         ),
@@ -78,7 +80,7 @@ class MealPlannerFragment : Fragment() {
 
         var addNewMealPlanBtn = binding.addNewMealPlanBtn
         var recyclerView = binding.mealPlanRecycleView
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        recyclerView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
         val mealPlannerAdapter = MealPlanListAdapter(requireContext(), mealPlanList)
         recyclerView.adapter = mealPlannerAdapter
 
